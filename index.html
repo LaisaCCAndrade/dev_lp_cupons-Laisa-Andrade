@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./base/channels4_profile.jpg" />
+    <link rel="stylesheet" href="./styled/reset.css" />
+    <link rel="stylesheet" href="./styled/index.css" />
+    <title>Aqui no Gimba tem CUPONS com desconto exclusivos!</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="https://www.gimba.com.br/">
+          <img src="./base/lgimba_br.png" />
+        </a>
+        <div class="btnComprar">
+          <a href="https://www.gimba.com.br/">
+            <div>Comprar agora</div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="cpExclusivos">
+        <div class="corpText">
+          <p class="cupons">Cupons</p>
+          <p class="descExclusivos">Descontos exclusivos!</p>
+          <p class="aproveite">Para você aproveitar as melhores ofertas!</p>
+        </div>
+      </div>
+      <div class="areaCupom">
+        <div class="todosCp">
+          <div class="todosCupons"></div>
+          <div class="cupomExclusivoApp">
+            <h3 class="tituloApp">Cupons Exclusivos para o APP</h3>
+            <div class="cuponsDescApp">
+              <div class="cuponsApp">
+                <img src="./base/202306-cupom-chamex.jpg" alt="">
+              </div>
+              <div class="dadosCp">
+                <h4 class="dadosApp">Crie seu papel no mundo com produtos chamex!</h4>
+                <p>
+                  20% de desconto em resmas A4 Chamex!
+                </p>
+                <div class="cupomApp">
+                  <span>No app utilize o cupom <strong>chamex20</strong></span>
+                </div>
+                <div class="btnsCupons">
+                  <a href="https://api.whatsapp.com/send?text=Aqui%20no%20Gimba%20tem%20CUPONS%20com%20desconto%20exclusivos!%20https%3A%2F%2Fwww.gimba.com.br%2Fcupons">
+                    <button class="btnCompartilhar"></button>
+                  </a>
+                  <a href="https://www.gimba.com.br/">
+                    <button class="acessarCategoria">Acessar categoria</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="baixeApp">
+              <div class="baixeoApp">
+                <img src="./base/202306-cupom-app.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="regras">
+            <p class="regra">Todos os cupons têm validade até 30/06/2023. Cupom Organização: válido para compras acima de 
+              R$100,00. Cupom Impressão: válido para compras acima de R$200,00. Cupom Mop: Sem valor 
+              mínimo. Cupom SC Johnson: válido para compras acima de R$50,00. Cupom Headphone: válido para 
+              compras acima de R$100,00. Cupom Fitas 3M: válido para compras acima de R$50,00. Cupom 
+              Adega: válido para compras acima de R$100,00. Cupom Destilados: válido para compras acima de 
+              R$50,00. Cupom Chamex: válido para compras acima de R$50,00.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <p>
+        <strong>Razão Social:</strong> Supricorp Suprimentos Ltda / CNPJ:
+        54.651.716/0011-50
+      </p>
+      <p>
+        <strong>Endereço:</strong> Avenida Prefeito João Vilallobo Quero, 1160 -
+        Jardim Belval - Barueri - SP | CEP: 06422-122
+      </p>
+      <p class="separaFooter">
+        Ilustrações disponibilizadas por:
+        <a href="https://www.gimba.com.br/">Gimba.com</a>
+      </p>
+      <p>
+        Ilustrações disponibilizadas por:
+        <a href="https://br.freepik.com/"> br.freepik.com</a>
+      </p>
+    </section>
+
+    <div id="modal" style="display: none">
+      <div id="modalContent">
+        <div class="check-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#a5dc86" width="48px" height="48px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+          </svg>
+        </div>
+        <div class="modalContent">
+          <h4 class="tituloModal">Cupom Copiado!</h4>
+          <p class="textoModal">Boas compras!</p>
+        </div>
+        <div class="btnModal">
+          <button id="btnOK">OK</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./bancoDado.js"></script>
+  <script src="./index.js"></script>
+</html>

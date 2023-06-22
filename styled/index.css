@@ -1,0 +1,460 @@
+header {
+  background-color: #222222;
+}
+
+.logo {
+  width: 1279px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 120px;
+  height: 35px;
+  padding: 30px 0 30px 0;
+}
+
+.btnComprar {
+  display: flex;
+  align-items: center;
+}
+
+.btnComprar div {
+  color: #ffffff;
+  background-color: #d22630;
+  width: max-content;
+  padding: 8px 16px;
+  font-size: 9px;
+  border-radius: 3px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.cpExclusivos {
+  background: url(../base/202304-landing-page-cupom-v1.jpg) no-repeat center top;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.corpText {
+  text-align: center;
+  color: #ffffff;
+}
+
+.cupons {
+  font-size: 105px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 0 25px 0;
+}
+
+.descExclusivos {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: -18px;
+}
+
+.aproveite {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.areaCupom {
+  background: #ebebeb;
+}
+
+.todosCp {
+  background: #ffff;
+  width: 1340px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.todosCupons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.areaAdega {
+  display: flex;
+  width: 97%;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.adega {
+  height: 233px;
+}
+
+.adega img {
+  border-radius: 4px 0 0 4px;
+}
+
+.dadosCp {
+  padding: 17px 20px;
+}
+
+.dadosCp .dados {
+  margin: 4px 0;
+}
+
+.dados {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color: #222222;
+}
+
+.desconto {
+  font-size: 13px;
+  color: #222222;
+}
+
+.cupomValor {
+  display: flex;
+  align-items: center;
+  margin: 13px 0 8px 0;
+}
+
+.campoCupomAdega {
+  border: 2px solid #d22630;
+  font-size: 19px;
+  padding: 14px;
+  width: 225px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #2e2e2e;
+}
+
+.campoCupom {
+  border: 2px solid #d22630;
+  font-size: 19px;
+  padding: 14px;
+  width: 259px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #2e2e2e;
+}
+
+.btnCopiar {
+  background: #d22630;
+  border: 1px solid #d22630;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  color: #ffffff;
+  border-radius: 0 5px 5px 0;
+  margin: 0px 0 0 0px;
+  cursor: pointer;
+  width: 110px;
+  height: 54px;
+  line-height: 18px;
+}
+
+.cupomApp {
+  margin-bottom: 17px;
+  border: 2px solid #275bd3;
+  font-size: 14px;
+  padding: 8px;
+  width: auto;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #275bd3;
+  border-radius: 5px;
+}
+
+.cupomApp strong {
+  font-weight: bold;
+}
+
+.btnsCupons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnCompartilhar {
+  background: url(../base/compartilhar.png) no-repeat;
+  background-position: center;
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  cursor: pointer;
+  padding: 0 13px;
+  margin: 0;
+}
+
+.acessarCategoria {
+  background: url(../base/acessar.png) no-repeat;
+  background-position: left;
+  background-size: 20px;
+  width: 85px;
+  height: 20px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 600;
+  border: 0;
+}
+
+.cuponsDesc {
+  border: 1px solid #999999;
+  border-radius: 5px;
+  width: 423px;
+  margin: 5px;
+}
+
+.cuponsDesc .cupomOrganizadores {
+  width: 100%;
+}
+
+.cupomOrganizadores img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.adegaDestilados {
+  height: 233px;
+}
+
+.adegaDestilados img {
+  border-radius: 4px 0 0 4px;
+  width: 894px;
+  height: 233px;
+}
+
+.cupomExclusivoApp {
+  background: #275bd3;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0 50px;
+  justify-content: center;
+  margin: 70px 0 0 0;
+  border-radius: 5px;
+}
+
+.tituloApp {
+  font-weight: 600;
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 0 30px 0;
+}
+
+.cuponsDescApp {
+  width: 394px;
+  height: 394px;
+  background: #ffffff;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.cuponsApp img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.dadosApp {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  margin: 12px 0;
+  color: #222222;
+}
+
+.cupomAppExclusivo {
+  margin: 15px 0 20px 0;
+}
+
+.baixeApp {
+  border: 1px solid #999999;
+  border-radius: 5px;
+  margin: 5px;
+  width: 394px;
+  height: 394px;
+}
+
+.baixeoApp {
+  display: flex;
+  width: 100%;
+}
+
+.baixeoApp img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.regras {
+  margin: 70px 0 0 0;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 25px;
+  text-align: center;
+  width: 80%;
+}
+
+.footer {
+  font-size: 11px;
+  color: #ffffff;
+  background: #222222;
+  line-height: 16px;
+  text-align: center;
+  height: auto;
+  padding: 35px 0px 35px 0px;
+  clear: both;
+}
+
+.footer p a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.separaFooter {
+  margin-top: 13px;
+}
+
+#modal {
+  opacity: 1;
+  pointer-events: auto;
+  box-sizing: border-box;
+  -webkit-animation: showSweetAlert 0.3s;
+  animation: showSweetAlert 0.3s;
+  will-change: transform;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 9999;
+}
+
+@keyframes checkAnimation {
+  0% {
+    transform: rotate(0deg) scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(360deg) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(720deg) scale(1);
+  }
+}
+
+#modalContent .check-icon {
+  animation: checkAnimation 1s ease-in-out;
+}
+
+.check-icon {
+  width: 80px;
+  height: 80px;
+  border: 4px solid hsla(98, 55%, 69%, 0.2);
+  border-radius: 50%;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  color: #a5dc86;
+}
+
+#modalContent {
+  width: 478px;
+  height: 303px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#modalContent p {
+  margin: 0;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloModal {
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 600;
+  text-transform: none;
+  position: relative;
+  display: block;
+  padding: 13px 16px;
+  font-size: 27px;
+  line-height: normal;
+  text-align: center;
+}
+
+.textoModal {
+  font-size: 16px;
+  position: relative;
+  float: none;
+  line-height: normal;
+  vertical-align: top;
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.64);
+  max-width: calc(100% - 20px);
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.btnModal {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  text-align: right;
+  margin-top: 45px;
+  padding: 13px 16px;
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#btnOK {
+  background-color: #7cd1f9;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 24px;
+  margin: 0;
+  cursor: pointer;
+}
